@@ -1,0 +1,24 @@
+@import '../../layouts/variables.css';
+.header {
+    background-color: #303333;
+    background-color: var(--jet);
+    flex: 25% 0 1;
+    padding: 0 2em;
+}
+
+.image {
+    width: 200px;
+}
+
+.link {
+    color: #F4FAFF;
+    color: var(--alice-blue);
+}
+
+.title {
+    color: #DEE7E7;
+    color: var(--platinum);
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 0;
+}
