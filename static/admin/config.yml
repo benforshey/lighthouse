@@ -12,3 +12,21 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+
+  - label: Organizational
+    name: organizational
+    files:
+      - label: Timeline
+        name: timeline
+        file: src/files/timeline.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - label: Event
+            name: event
+            widget: list
+            fields:
+              - { label: Date, name: date, widget: date, default: , format: YYYY  }
+              - {label: Description, name: description, widget: string}
+              - {label: Photo, name: photo, widget: image}
+
