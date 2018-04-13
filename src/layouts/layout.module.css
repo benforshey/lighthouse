@@ -1,0 +1,20 @@
+.site {
+    display: flex;
+    height: 100vh;
+}
+
+.main {
+    background-color: hsl(37, 100%, 98%);
+    flex: 1 1 100%;
+    padding: 0 calc(2vw + 1em);
+}
+
+
+    /* primaryDark: '#684687 or hsl(271, 32%, 40%)',
+    primaryLight: '#B0A1BA or hsl(276, 15%, 68%)',
+    secondaryMid: '#F4D06F or hsl(44, 86%, 70%)'
+    secondaryLight: '#FFFCF7 or hsl(37, 100%, 98%)',
+    neutralDark: '#303333 or hsl(180, 3%, 19%)',
+    neutral15: 'hsl(180, 3%, 22%)',
+    neutralMid: '#DEE7E7 or hsl(180, 16%, 89%)',
+    neutralLight: '#F4FAFF' or hsl(207, 100%, 98%), */
