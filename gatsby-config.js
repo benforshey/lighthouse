@@ -39,7 +39,6 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-purify-css',
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
   ],
