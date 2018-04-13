@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: benforshey/lighthouse
 
 media_folder: static/assets
 
