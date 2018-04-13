@@ -16,8 +16,15 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/files`,
+        path: `${__dirname}/cms/files`,
         name: 'files',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/cms/organizational`,
+        name: 'organizational',
       },
     },
     {

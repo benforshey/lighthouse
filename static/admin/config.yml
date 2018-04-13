@@ -18,7 +18,7 @@ collections:
     files:
       - label: Timeline
         name: timeline
-        file: /src/files/timeline.md
+        file: /cms/organizational/timeline.md
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
@@ -29,4 +29,10 @@ collections:
               - { label: Date, name: date, widget: string }
               - { label: Description, name: description, widget: markdown }
               - { label: Photo, name: photo, widget: image }
+      - label: "About Us"
+        name: about_us
+        file: /cms/organizational/about-us.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
 
