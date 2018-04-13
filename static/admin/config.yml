@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: benforshey/lighthouse
+  name: git-gateway
 
 media_folder: static/assets
 
