@@ -6,7 +6,10 @@ intro: >-
   rich history.
 event:
   - date: '1866'
-    description: "Built by\_Maurice Moore in 1866, a local tobacconist responsible for the highly praised “Killikinnick” brand of tobacco. It took him 3 years to build his personal residence."
+    description: >-
+      Built by Maurice Moore in 1866, a local tobacconist responsible for the
+      highly praised “Killikinnick” brand of tobacco. It took him 3 years to
+      build his personal residence.
   - date: '1869'
     description: Maurice Moore moved with his family into the house in 1869.
   - date: '1870'
